@@ -6,7 +6,6 @@ package com.mycompany.studentmanagementsystem_1;
 
 /**
  *
- * @author Josef's PC
  */
 public class Subject {
     private String SubjectName;

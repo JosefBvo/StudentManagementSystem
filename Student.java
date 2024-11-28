@@ -1,9 +1,12 @@
-package com.mycompany.StudentManagementSystem;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package com.mycompany.studentmanagementsystem_1;
 import java.util.HashMap;
 import java.util.Map;
 /**
  *
- * @author Josef's PC
  */
 public class Student {
     private String StudentName;
@@ -26,7 +29,7 @@ public class Student {
     //Method to assign a SUBJECT to a given Student
     public void enrollInSubject(Subject subject) {
         if (!grades.containsKey(subject)) {
-            grades.put(subject, null);
+            grades.put(subject, 0);
         }
     }
     //Can give a grade to a student for a specific Subject
@@ -51,3 +54,4 @@ public class Student {
         return "Student{" + "StudentName='" + StudentName + '\'' + ", id=" + id + '}';
     }
 }
+
